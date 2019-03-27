@@ -11,6 +11,7 @@ body {
 }
 
 .hero-background {
+    height: 100vh;
     background-color: #75C6FB;
 }
 
@@ -113,7 +114,7 @@ body {
         }
 
 footer {
-    background-color: #75C6FB;
+    background-color: #03A9F5;
     text-align: center;
 }
     footer > .social {
@@ -122,7 +123,37 @@ footer {
         margin: 20px calc( (100% - 800px) / 2 );
         padding-bottom: 20px;
         border-bottom: 1px solid #FFF;
+        position: relative;
     }
+        footer > .social > a {
+            display: inline-block;
+            width: 44px;
+            padding: 10px;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #FFF;
+            font-size: 24px;
+        }
+            footer > .social > a:hover {
+                background-color: #FFF;
+                color: #03A9F5;
+                border-radius: 50%;
+            }
+        footer > .social > .back-to-top {
+            font-size: 30px;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            line-height: 35px;
+            color: #FFF;
+            text-decoration: none;
+            background-color: #EA1D62;
+            border-radius: 50%;
+            position: absolute;
+            top: -40px;
+            right: -20px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
     footer > .legal-shit {
         display: inline-block;
         width: 800px;
