@@ -78,6 +78,9 @@ body {
             #hero form > input:focus {
                 outline: none;
             }
+    #hero .mouse-container {
+        margin-top: 40px;
+    }
 
     @media ( max-width: 640px ) {
         .hero-content {
